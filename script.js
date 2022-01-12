@@ -7,7 +7,7 @@ document.querySelectorAll("button").forEach((btn) => {
 		var btnValue = btn.value;
 
           // advance practice code
-          
+
 		/* switch (btnValue) {
 			case "+":
 				if (typeof firstValue != 'undefined') {
@@ -39,8 +39,9 @@ document.querySelectorAll("button").forEach((btn) => {
 				break;
 
 			case "=":
-				display.value = eval(display.value);
+				display.value = eval((display.value).replace('%', '/100*'));
 				break;
+
 
 			default:
 				display.value = display.value + btn.value;
