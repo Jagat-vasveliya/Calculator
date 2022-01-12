@@ -23,7 +23,7 @@ input {
      height: 100%;
      padding: 12px 20px;
      border: 0;
-     /* direction: rtl; */
+     text-align: end;
      font-size: 70px;
      box-sizing: border-box;
 }
